@@ -1,4 +1,4 @@
-def my_function():
+"""def my_function():
     print("hello")
 my_function()     #print the hello in function
 
@@ -95,3 +95,12 @@ print("E:", E_count)
 print("I:", I_count)
 print("O:", O_count)
 print("U:", U_count)
+"""
+def find_leargest(numbers):
+    largest = numbers[0]
+    for num in numbers:
+        if num > largest:
+            largest = num
+    return largest
+
+print(find_leargest([1, 2, 32, 4, 5])) #print the largest number in a list in function
