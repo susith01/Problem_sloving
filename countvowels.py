@@ -7,7 +7,4 @@ for char in name:
         print(char)
         count += 1
 
-if letter in vowels:
-    print(len(letter))
-else:
-    print("The letter is not a vowel")
+print("Total vowels:", count)
